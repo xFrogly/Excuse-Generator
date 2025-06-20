@@ -68,4 +68,4 @@ If you enjoyed this tiny tool, consider starring the repo to support fun open-so
 
 ---
 
-Made with ❤️ by \[xFrogly]
+Made with ❤️ by xFrogly
