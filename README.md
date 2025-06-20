@@ -20,6 +20,7 @@ Try it live (if deployed): [https://yourusername.github.io/excuse-generator](htt
 ---
 
 ## 📸 Screenshot
+![image](https://github.com/user-attachments/assets/0c10e7b0-bbe5-41b7-9de5-2631e99c8e87)
 
 ---
 
