@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Late Reply Excuse Generator</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f7f7f7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+    }
+    button {
+      padding: 0.7rem 1.2rem;
+      font-size: 1rem;
+      margin-top: 1rem;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    .excuse {
+      margin-top: 1.5rem;
+      font-style: italic;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📱 Late Reply Excuse Generator</h1>
+    <p>Click below to get a new excuse:</p>
+    <button onclick="generateExcuse()">Generate Excuse</button>
+    <p class="excuse" id="excuse">🤔</p>
+  </div>
+
+  <script>
+    const excuses = [
+      "Sorry, I was abducted by pigeons.",
+      "I was mentally replying the whole time, I swear!",
+      "My phone turned into a potato.",
+      "I fell asleep thinking about your message.",
+      "I had to reboot my brain.",
+      "I read it in my head but forgot to hit send.",
+      "I time-traveled to the wrong timezone.",
+      "I was busy arguing with my cat.",
+      "I dropped my phone into a black hole.",
+      "My brain went on vacation without telling me."
+    ];
+
+    function generateExcuse() {
+      const random = excuses[Math.floor(Math.random() * excuses.length)];
+      document.getElementById("excuse").textContent = random;
+    }
+  </script>
+</body>
+</html>
