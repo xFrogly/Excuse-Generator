@@ -15,7 +15,7 @@ A fun and simple web app that gives you **random excuses** for replying late to 
 
 ## 🖥️ Demo
 
-Try it live (if deployed): [https://yourusername.github.io/excuse-generator](https://xfrogly.github.io/excuse-generator)
+Try it live (if deployed): [https://yourusername.github.io/excuse-generator](https://xfrogly.github.io/Excuse-Generator/)
 
 ---
 
